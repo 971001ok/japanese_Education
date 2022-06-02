@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.container{width:1240; margin:0 auto;}
+
+*{margin:0; padding:0; box-sizing:border-box;}
+a{text-decoration:none; color:#333;}
+ul,ol {list-style:none;}
+
+.txtcenter {text-align:center;}
+.txtleft{text-align:left;}
+.txtright{text-align:right;}
+
+.img{width:100%;}
+
+@font-face{
+	src:url("../fonts/yugothib.ttf");
+    font-family: "yugothib"; 
+ }

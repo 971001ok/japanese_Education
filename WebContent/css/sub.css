@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+.header {border-top:1px solid #ddd; border-bottom:1px solid #ddd; background:#fff;}
+
+.header .topmenu{
+	width:1240px;
+	margin:0 auto;
+	padding-bottom:40px;
+}
+.header .topmenu .jright{
+	float:right;
+}
+.header .topmenu .jright > ul >li{
+	float:left;
+}
+.header .topmenu .jright a{
+   font-size:10px;
+   width:80px;
+   background:#0000ff;
+   color:#fff;
+   text-align:center;
+   padding:10px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.id{
+	width:1240px;
+	margin:0 auto;
+}
+.id h2{
+	padding:40px 0 10px 0;
+	text-size:20px;
+	text-decoration:bold;
+	text-align:center;
+}
+.id .formtable{
+	padding-left:40px;
+}
+.id .formtable table{
+	margin:0 auto;
+	text-align:center;
+}
+.id .formtable .botan{
+	border: 1px solid #aaa;
+    padding: 5px;
+}
+
+.gnb{width:1240px; margin:0 auto; line-height:40px;} /*1240px으로 맞추기*/
+.gnb:after {content:""; display:block; clear:both;}
+.pagination{
+	text-align:center;
+}
+.gnb > .logo {float:left; padding:0;}
+.logoimg {width:180px; padding-bottom:15px;}
+.logoimage {width:600px; padding-bottom:15px;}
+.navi{float:right;}
+.navi > ul > li {
+	float:left; 
+	width:140px; 
+	line-height:70px; 
+	position:relative; 
+	text-align:center;
+	}
+.navi > ul > li.active {background:#FF0000;}
+.navi > ul > li.active > a {color:#fff;}
+.navi > ul > li > a{
+	font-size:20px; font-weight:bold;
+	}
+.navi > ul > li > .sub-2depth {
+	display:none; z-index:999; text-align:center;
+	position:absolute; background:#fff; width:100%
+	}
+.navi > ul > li > .sub-2depth > li {
+	line-height:160%; font-size:12px;
+	width:100%; padding:6px; 
+	border-bottom:1px solid #ddd; 
+	}
+.navi > ul > li > .sub-2depth > li >a:hover {
+	text-decoration:underline;
+	}
+.gnb h1{
+	padding:20px 0;
+}
+.jjj{
+	width:60%;
+    margin-left: 20%;
+    border: 1px solid black;
+}
+.gnb .link a{
+	font-size:25px;
+	padding-bottom:20px;
+}
+.gnb .h4, .gnb .your-class img{
+	margin:0 auto;
+	text-align: left;
+}
+.gnb .group{
+	content:"";
+	display:block;
+	clear:both;
+}
+.gnb .group .select{
+	width: 20%;
+	padding: 12px 0px;
+	margin: 8px 0;
+	float:right;
+}
+.gnb .group .select form ul li a:hover {
+	text-decoration:underline;
+	}
+.gnb .group .formtable{
+	float:right;
+}
+.navi{float:right;}
+.navi > ul > li {
+	float:left; 
+	width:140px; 
+	line-height:70px; 
+	position:relative; 
+	text-align:center;
+	}
+.navi > ul > li.active {background:#FF0000;}
+.navi > ul > li.active > a {color:#fff;}
+.navi > ul > li > a{
+	font-size:20px; font-weight:bold;
+	}
+.navi > ul > li > .sub-2depth {
+	display:none; z-index:999; text-align:center;
+	position:absolute; background:#fff; width:100%
+	}
+.navi > ul > li > .sub-2depth > li {
+	line-height:160%; font-size:12px;
+	width:100%; padding:6px; 
+	border-bottom:1px solid #ddd; 
+	}
+.navi > ul > li > .sub-2depth > li >a:hover {
+	text-decoration:underline;
+	}
+.poto{
+	width:180px;
+	height:100px;
+	margin:0 auto;
+}
+.table_pw > td{
+	text-align:left;
+}
+.table_pw > td > input {
+	width:300px;
+}
+.membertouroku {
+	text-align: center;
+	padding-top: 30px;
+	border: 1px solid black;
+}
+.children{
+	margin:auto;
+	overflow:auto;
+	width:1000px;
+	height:400px;
+	border:1px solid #0000ff;
+	padding:10px 20px;
+}
+.naiyou{
+	width:800px;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+	margin: 0;
+}
+
+body {
+	min-height: 100%;
+	padding-bottom:120px;
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	color: white;
+	background: #353535;
+}
